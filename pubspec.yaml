@@ -1,0 +1,41 @@
+name: marble_factory_app
+description: "A standalone offline-first Mobile ERP for Marble & Granite Factories with SQLite."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local SQLite Database & Storage
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Media & Photo Capture (Camera + Gallery)
+  image_picker: ^1.0.7
+
+  # WhatsApp Launch & External URLs
+  url_launcher: ^6.2.5
+
+  # Receipt Sharing & PDF Generation
+  share_plus: ^7.2.2
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # Date & Currency Formatting
+  intl: ^0.19.0
+
+  # Icons & Styling
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
